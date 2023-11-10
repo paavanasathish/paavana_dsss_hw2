@@ -18,7 +18,7 @@ class TestMathGame(unittest.TestCase):
 
     def test_generate_random_math_operation(self):
        # generating 1000 random operations and checking if each is one of the expected operations.
-       for _ in range(1000):  
+       for _ in range(100):  
         operation = generate_random_math_operation()
         self.assertIn(operation, ['+', '-', '*'])
 

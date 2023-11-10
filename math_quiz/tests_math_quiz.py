@@ -4,7 +4,7 @@ from math_quiz import generate_random_integer, generate_random_math_operation, g
 """This code has the test cases for all the functions functions. 
 It checks whether the generated random integers fall between min val and max val, and 
 the operation generated math operations are one of the expected operations and 
-whether the generated math problems and solutions match the expected values."""
+whether the generated math problems and solutions match the expected values..."""
 
 class TestMathGame(unittest.TestCase):
 

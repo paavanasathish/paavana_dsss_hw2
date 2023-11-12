@@ -10,3 +10,9 @@ setup(
     install_requires=requirements,
     # Other metadata like author, description, etc.
 )
+
+entry_points={
+    'console_scripts': [
+        'math_quiz=math_quiz:main',
+    ],
+}

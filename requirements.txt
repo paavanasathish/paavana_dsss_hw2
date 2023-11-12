@@ -1,2 +1,2 @@
-random
-unittest
+pytest>=7.0.0
+pytest-cov>=2.12.0

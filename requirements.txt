@@ -1,7 +1,4 @@
 # requirements.txt
 
 # Python version
-python==3.11.5
-
-# No external dependencies
-# Your code relies on standard libraries only
+python>=3.8

@@ -3,6 +3,9 @@ This is a Python script for a simple mathematics quiz game. The code generates r
 Asks the user to solve them, and then provides feedback on whether the answers are correct.
 """
 import random
+
+
+
 """
 We import 'random' module to introduce randomness in which it provides functions that generate random numbers, used in instance where unpredictability is desired.
 """
@@ -34,9 +37,6 @@ def generate_math_problem_and_solution(number1, number2, operation):
         solution = number1 - number2
     else: solution = number1 * number2
     return math_problem, solution 
-
-def main():
-    print("Hello from math_quiz!")
 
 def math_quiz():
     """

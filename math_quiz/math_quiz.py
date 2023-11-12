@@ -35,6 +35,9 @@ def generate_math_problem_and_solution(number1, number2, operation):
     else: solution = number1 * number2
     return math_problem, solution 
 
+def main():
+    print("Hello from math_quiz!")
+
 def math_quiz():
     """
     This function is to run the Maths quiz game. It sets the score as 0 and the total number of questions as 3.

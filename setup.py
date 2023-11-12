@@ -8,11 +8,10 @@ setup(
     version='1.0.0',
     packages=find_packages(),
     install_requires=requirements,
+    entry_points={
+        'console_scripts': [
+            'math_quiz=math_quiz:main',
+        ],
+    },
     # Other metadata like author, description, etc.
 )
-
-entry_points={
-    'console_scripts': [
-        'math_quiz=math_quiz:main',
-    ],
-}

@@ -3,7 +3,7 @@ This is a Python script for a simple mathematics quiz game. The code generates r
 Asks the user to solve them, and then provides feedback on whether the answers are correct.
 """
 import random
-from .math_quiz import math_quiz
+
 
 
 """
